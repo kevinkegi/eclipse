@@ -1,10 +1,14 @@
 package controlador;
 
-public class Principal {
+import modelo.Conexao;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+public class Principal 
+{
+	public static void main(String[] args) 
+	{
+		
+    Conexao c= new Conexao();
+    c.Conecta();
 	}
 
-}
+} 
